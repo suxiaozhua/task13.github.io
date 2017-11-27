@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>投票页</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/page02.css">
+    <link rel="stylesheet" type="text/css" href="./css/color_style.css">
+</head>
+<body>
+<div class="header">
+    <div class="header_left"><a href="./index.html"><img src="./images/bar.png"></a></div>
+    <p>投票</p>
+    <div class="header_right"><a href="./index.html"><img src="./images/close.png"></a></div>
+</div>
+
+<div class="guild">
+    <div class="prompt"><p>发言讨论结束，大家请投票</p></div>
+    <div class="triangle-down"><img src="./images/triangle-down.png"></div>
+    <div class="music">
+        <audio src="./NOKIA.mp3" id="aud"></audio>
+        <img src="./images/player.png" id="playpause" />
+    </div>
+    <div class="propt">
+        <span class="littlePropt" style="color: #FFF">点击得票数最多的头像</span>
+    </div>
+</div>
+
+
+<div class="content">
+    <div id="main">
+        <div class="box">
+            <div class="item">
+                <a href="#">
+                    <div class="itemTop"><span>水民</span></div>
+                    <div class="itemBottom"><span>1号</span></div>
+                </a>
+                <img src="./images/007.png">
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="itemTop"><span>杀手</span></div>
+                    <div class="itemBottom"><span>1号</span></div>
+                </a>
+                <img src="./images/007.png">
+            </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>法官</span></div>
+                <div class="itemBottom"><span>1号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>律师</span></div>
+                <div class="itemBottom"><span>1号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>财主</span></div>
+                <div class="itemBottom"><span>1号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>水民</span></div>
+                <div class="itemBottom"><span>2号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>小偷</span></div>
+                <div class="itemBottom"><span>1号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>杀手</span></div>
+                <div class="itemBottom"><span>2号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>水民</span></div>
+                <div class="itemBottom"><span>4号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>水民</span></div>
+                <div class="itemBottom"><span>5号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>水民</span></div>
+                <div class="itemBottom"><span>6号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>            <div class="item">
+            <a href="#">
+                <div class="itemTop"><span>水民</span></div>
+                <div class="itemBottom"><span>7号</span></div>
+            </a>
+            <img src="./images/007.png">
+        </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="vote"><a href="./page03.html"><span><button class="voteButton">投票</button></span></a></div>
+</div>
+
+<script type="text/javascript">
+    var aud = document.getElementById("aud");
+    var img = document.getElementById("playpause");
+    img.onclick = function() {
+        if (aud.paused) {
+            aud.play();
+        } else {
+            aud.pause();
+        }
+    };
+    aud.addEventListener("play", function () {
+        img.src="./images/player.png";
+    }, false);
+    aud.addEventListener("pause", function () {
+        img.src="./images/player.png";
+    }, false);
+</script>
+</body>
+</html>

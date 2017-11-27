@@ -1,0 +1,172 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #29BDE0;
+  margin: 0 auto;
+  padding: 0; }
+  body a {
+    text-decoration: none; }
+
+/** header **/
+.header {
+  background-color: #29BDE0;
+  height: 40px;
+  width: 100%;
+  z-index: 100;
+  position: fixed; }
+
+.header_left {
+  position: absolute;
+  padding: 10px; }
+
+.header p {
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
+  letter-spacing: 5px; }
+
+.header_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px; }
+
+/** guild **/
+.guild {
+  background-color: #B9E9F5;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 40px; }
+
+.prompt {
+  height: 40px;
+  background-color: #B9E9F5; }
+
+.prompt p {
+  display: block;
+  line-height: 30px;
+  text-align: left;
+  font-size: 15px;
+  padding: 0 2px 0 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0; }
+
+.propt {
+  padding-top: 5px;
+  height: 30px;
+  background-color: #29BDE0; }
+
+.triangle-down {
+  position: absolute;
+  left: 35px; }
+
+.music {
+  position: absolute;
+  top: 15px;
+  right: 10px; }
+
+.littlePropt {
+  display: block;
+  line-height: 30px;
+  text-align: left;
+  font-size: 13px;
+  padding: 0 2px 10px 33px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/** content **/
+.content {
+  padding-top: 150px;
+  background-color: #29BDE0; }
+
+#main {
+  background-color: #29BDE0;
+  margin-bottom: 80px;
+  border-bottom: 10px solid #29BDE0; }
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.item {
+  width: 90px;
+  height: 130px;
+  margin: 10px 10px 15px 10px; }
+
+.itemTop {
+  width: 84px;
+  height: 84px;
+  background-color: #F5C97B;
+  border: 3px solid #FFF;
+  border-bottom: 0; }
+
+.itemTop span {
+  display: block;
+  line-height: 34px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 23px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.itemBottom {
+  width: 84px;
+  height: 19px;
+  background-color: #83B09A;
+  border: 3px solid #FFF;
+  border-top: 0; }
+
+.itemBottom span {
+  display: block;
+  line-height: 19px;
+  text-align: center;
+  font-size: 15px;
+  color: #FFF;
+  padding: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.item:hover img {
+  margin: 10px 0 0 2px;
+  display: block; }
+
+.item img {
+  display: none; }
+
+/** footer **/
+#footer {
+  height: 80px;
+  width: 100%;
+  background-color: #29BDE0;
+  position: fixed;
+  bottom: 0; }
+
+.vote span {
+  font-size: 25px;
+  color: #FFF; }
+
+.voteButton {
+  background-color: #F8B547;
+  text-align: center;
+  padding: 15px 20px;
+  width: 80%;
+  margin: 2% 10%;
+  font-size: 25px;
+  color: #FFF; }
+
+/*# sourceMappingURL=page02.css.map */
